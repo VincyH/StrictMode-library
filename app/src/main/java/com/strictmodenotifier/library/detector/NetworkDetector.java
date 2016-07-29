@@ -1,6 +1,6 @@
 package com.strictmodenotifier.library.detector;
 
-import com.nshmura.strictmodenotifier.StrictModeLog;
+import com.strictmodenotifier.library.StrictModeLog;
 
 public class NetworkDetector implements Detector {
 

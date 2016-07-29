@@ -1,14 +1,14 @@
 package com.strictmodenotifier.library;
 
 import android.os.Build;
-import com.nshmura.strictmodenotifier.detector.ClassInstanceLimitDetector;
-import com.nshmura.strictmodenotifier.detector.CleartextNetworkDetector;
-import com.nshmura.strictmodenotifier.detector.CustomSlowCallDetector;
-import com.nshmura.strictmodenotifier.detector.Detector;
-import com.nshmura.strictmodenotifier.detector.FileUriExposureDetector;
-import com.nshmura.strictmodenotifier.detector.LeakedClosableObjectsDetector;
-import com.nshmura.strictmodenotifier.detector.NetworkDetector;
-import com.nshmura.strictmodenotifier.detector.ResourceMismatchDetector;
+import com.strictmodenotifier.library.detector.ClassInstanceLimitDetector;
+import com.strictmodenotifier.library.detector.CleartextNetworkDetector;
+import com.strictmodenotifier.library.detector.CustomSlowCallDetector;
+import com.strictmodenotifier.library.detector.Detector;
+import com.strictmodenotifier.library.detector.FileUriExposureDetector;
+import com.strictmodenotifier.library.detector.LeakedClosableObjectsDetector;
+import com.strictmodenotifier.library.detector.NetworkDetector;
+import com.strictmodenotifier.library.detector.ResourceMismatchDetector;
 
 public enum ViolationTypeInfo {
 

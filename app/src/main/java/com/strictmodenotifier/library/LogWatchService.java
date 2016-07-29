@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
-import com.nshmura.strictmodenotifier.R;
+import com.strictmodenotifier.library.R;
 
 public class LogWatchService extends IntentService {
 
