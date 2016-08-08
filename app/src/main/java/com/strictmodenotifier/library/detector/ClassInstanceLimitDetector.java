@@ -6,6 +6,6 @@ public class ClassInstanceLimitDetector implements Detector {
 
   @Override
   public boolean detect(StrictModeLog log) {
-    return log.message.contains("StrictMode.setClassInstanceLimit");
+    return log.message.contains("duration");
   }
 }
