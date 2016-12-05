@@ -1,2 +1,2 @@
-# StrictMode-library
-this is a library that integration strictmode
+# performance-library
+this is a library that reporting performance
