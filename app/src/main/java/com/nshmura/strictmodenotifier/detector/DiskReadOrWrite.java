@@ -9,7 +9,8 @@ public class DiskReadOrWrite implements Detector {
 
     @Override public boolean detect(StrictModeLog log){
 
-        return (log.message.contains("took")||log.message.contains("MainThread")||log.message.contains("prepare"));
+        //return (log.message.contains("took")||log.message.contains("MainThread")||log.message.contains("prepare"));
         //executeForLong
+        return false;
     }
 }
